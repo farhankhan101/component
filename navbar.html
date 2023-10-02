@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar by Farhan</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: black;
+    }
+    .nav{
+        width: 100%;
+        height: 100px;
+        background-color: white;
+        box-shadow: 2px 3px 2px white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img{
+        width: 250px;
+        /* border: 1px solid aqua; */
+    }
+    .img img{
+        width: 180px;
+        margin: auto;
+        /* height: 100%; */
+        /* z-index: -1; */
+        /* position: absolute; */
+    }
+    ul{
+        /* border: 1px solid aqua; */
+        display: flex;
+        padding: 40px;
+    }
+    li a:hover{
+        border-bottom: 4px solid aqua;
+        font-size: 24px;
+    }
+    ul li{
+        padding-left: 60px;
+        list-style: none;
+    }
+    ul li a{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif ;
+        color: black;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    .button{
+        width: 400px;
+        /* border: 1px solid aqu    a; */
+        
+    }
+    .button button{
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 20px;
+        height: 60px;
+        background-color: transparent;
+        border: 2px solid aqua;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .button button:hover{
+        transform: scale(1.5);
+        background-color: aqua;
+        border-radius: 30px 4px;
+    }
+</style>
+<body>
+    <section class="nav">
+        <div class="img">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Carear</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+       <div class="button">
+        <button>Login</button>
+        <button>Register</button>
+
+       </div>
+    </section>
+</body>
+</html>
